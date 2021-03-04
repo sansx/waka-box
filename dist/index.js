@@ -861,7 +861,7 @@ module.exports = (function(e, t) {
         const a = [
           i.padEnd(11),
           o.padEnd(14),
-          generateBarChart(s, 16),
+          generateBarChart(s, 14),
           String(s.toFixed(1)).padStart(5) + "%"
         ];
         r.push(a.join(" "));
